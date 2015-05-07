@@ -224,10 +224,15 @@
     <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
     <!-- From: file:/C:/Users/Android1/StudioProjects/YoutubeMaster/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="facebook">FaceBook</string>
+    <string name="facebook_app_id">yangsfacebookdemo</string>
     <string name="hello_world">Hello world!</string>
     <!-- From: file:/C:/Users/Android1/StudioProjects/YoutubeMaster/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="messenger_send_button_text">Send</string>
+    <!-- From: file:/C:/Users/Android1/StudioProjects/YoutubeMaster/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="twitter">twitter</string>
     <!-- From: file:/C:/Users/Android1/StudioProjects/YoutubeMaster/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">

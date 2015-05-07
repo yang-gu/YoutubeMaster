@@ -2,53 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\libs\retrofit-1.9.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a681c044244d9fc375198588297a39ba78028423">
-        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-f054085172936bfdc2e36361706274f727f05984.jar" />
-    </item>
-    <item
-        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-8d1d77c9522efdbf124c894e489da9ec8ce3c2da.jar" />
-    </item>
-    <item
-        jar="C:\Users\Android1\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\gson-2.3.1-40b714d5ff55b6cb07259dba1ee569588102eb85.jar" />
-    </item>
-    <item
         jar="C:\Users\Android1\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="129874135e6081269ace2312092031558865de12">
         <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-a9b0e9bae3c2ad8050202653b289aea6e005f1a9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
-        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-7a2dcab7112eb62c348b70f567abc33caad2dc38.jar" />
-    </item>
-    <item
-        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-712b565ede06ddf9e97301990ea3e37c5bebbac1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\libs\picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-3734c85df8518016280e40719cc71b9e090dce11.jar" />
     </item>
     <item
         jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
@@ -58,11 +16,60 @@
         <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-09ec3607f08fd65e58383fdff990ef08b4b20055.jar" />
     </item>
     <item
-        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\libs\YouTubeAndroidPlayerApi.jar"
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter-core\1.3.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
-        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi-b9c99725dc6fe1c1086892e277405c8db505e216.jar" />
+        sha1="11e935f7922727710104ad7e14375f4484b60ac8">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-e4a1d3711d8e429395c554c1882e397ac0a7474d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-422c314492928cd81e746650ee497ee36e86a136.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bb47ba58ffd67d44cd9e5cc6761cac747b4a6acf">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-ebb02ab2711f27985f4308dceb8be09acb8365bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.6.1\efb0a36546aa8857ab8df358b106c1817e03cbee\retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\retrofit-1.6.1-8024476a02322d67858cedb69057d4020c25bfcf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-3734c85df8518016280e40719cc71b9e090dce11.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\libs\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-f054085172936bfdc2e36361706274f727f05984.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\gson-2.3.1-40b714d5ff55b6cb07259dba1ee569588102eb85.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-8d1d77c9522efdbf124c894e489da9ec8ce3c2da.jar" />
     </item>
     <item
         jar="C:\Users\Android1\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
@@ -72,11 +79,32 @@
         <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-369f796ea88330f22727809061bb01ad3e410879.jar" />
     </item>
     <item
-        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-422c314492928cd81e746650ee497ee36e86a136.jar" />
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-7a2dcab7112eb62c348b70f567abc33caad2dc38.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-composer\0.7.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69bf5d59b95eb91b9d17ddb3f0725a4ff499197e">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\classes-1d7d8ae00e7922070ffca9894262baa898ee6015.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi-b9c99725dc6fe1c1086892e277405c8db505e216.jar" />
+    </item>
+    <item
+        jar="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Android1\StudioProjects\YoutubeMaster\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-712b565ede06ddf9e97301990ea3e37c5bebbac1.jar" />
     </item>
 
 </items>

@@ -65,14 +65,10 @@ public class MainActivity extends ActionBarActivity implements
 
 		mRecyclerAdapter = new RecyclerAdapter(this, new ArrayList<Item>());
 
-
-
 		/* Initialize recycler view */
 		mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 		mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 		mRecyclerView.setAdapter(mRecyclerAdapter);
-
-
 
 		/*lv = (ListView) findViewById(R.id.listView);
 		lv.setAdapter(mYoutubeAdapter);*/
@@ -128,11 +124,12 @@ public class MainActivity extends ActionBarActivity implements
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
+		/*int id = item.getItemId();
 		if (id == R.id.action_settings) {
 			return true;
 		}
-		return super.onOptionsItemSelected(item);
+		return super.onOptionsItemSelected(item);*/
+		return true;
 	}
 
 	@Override
@@ -208,6 +205,7 @@ public class MainActivity extends ActionBarActivity implements
 		@Override
 		public void onBindViewHolder(ItemListViewHolder ilvh, int i) {
 			Item item = mItemList.get(i);
+			ilvh.setItem(item);
 			Picasso.with(mContext).load(item.getThumbnail().getSqDefault()).into(ilvh.thumbnail);
 			ilvh.title.setText(item.getTitle());
 			String testDesc;
@@ -245,6 +243,7 @@ public class MainActivity extends ActionBarActivity implements
 			public TextView category;
 			public TextView id;
 			private Context context;
+			Item holderItem;
 
 			public ItemListViewHolder(Context ctxt, View v) {
 				super(v);
@@ -263,8 +262,20 @@ public class MainActivity extends ActionBarActivity implements
 				Intent intent = new Intent(ctxt,
 						YoutubeDisplay.class);
 				System.out.println("id is " + id.getText().toString());
-				intent.putExtra("id", id.getText().toString());
+				/*intent.putExtra("id", id.getText().toString());
+				intent.putExtra("thumbnail", holderItem.getThumbnail().getSqDefault());
+				intent.putExtra("url", holderItem.getUrl());
+				intent.putExtra("description", holderItem.getDescription());
+				intent.putExtra("title", holderItem.getTitle());*/
+
+				holderItem.getDescription();
+
+				intent.putExtra("item", holderItem);
 				ctxt.startActivity(intent);
+			}
+
+			public void setItem(Item item) {
+				holderItem = item;
 			}
 		}
 	}

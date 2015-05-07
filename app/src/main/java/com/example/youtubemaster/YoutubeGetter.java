@@ -39,6 +39,11 @@ public class YoutubeGetter {
 				item.setDescription(jo.getString("description"));
 				item.setTitle(jo.getString("title"));
 
+				JSONObject player = jo.getJSONObject("player");
+				item.setUrl(player.getString("default"));
+
+				System.out.println("Player is " + item.getUrl());
+
 				Thumbnail thnail = new Thumbnail();
 				JSONObject jThumbnail = jo.getJSONObject("thumbnail");
 				thnail.setSqDefault(jThumbnail.getString("sqDefault"));
