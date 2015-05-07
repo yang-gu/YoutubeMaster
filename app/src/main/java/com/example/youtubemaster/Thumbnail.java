@@ -1,6 +1,8 @@
 package com.example.youtubemaster;
 
-public class Thumbnail {
+import java.io.Serializable;
+
+public class Thumbnail implements Serializable {
 	private String sqDefault;
 	private String hqDefault;
 	public String getSqDefault() {

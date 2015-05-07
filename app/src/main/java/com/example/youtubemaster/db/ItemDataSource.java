@@ -22,12 +22,13 @@ public class ItemDataSource extends DataSource {
 	public static final String COLUMN_CATEGORY = "category";
 	public static final String COLUMN_SQ = "sq";
 	public static final String COLUMN_HQ = "hq";
+	public static final String COLUMN_URL = "url";
 
 	// Database creation sql statement
 	public static final String CREATE_COMMAND = "create table " + TABLE_NAME
 			+ "(" + COLUMN_ID + " text primary key, " + COLUMN_TITLE
 			+ " text not null, " + COLUMN_DESCRIPTION + " text not null, "
-			+ COLUMN_CATEGORY + " text not null, " + COLUMN_SQ
+			+ COLUMN_CATEGORY + " text not null, " + COLUMN_URL + " text not null, " + COLUMN_SQ
 			+ " text not null, " + COLUMN_HQ + " text not null);";
 
 	public ItemDataSource(SQLiteDatabase database) {
@@ -108,7 +109,7 @@ public class ItemDataSource extends DataSource {
 
 	public String[] getAllColumns() {
 		return new String[] { COLUMN_ID, COLUMN_TITLE, COLUMN_DESCRIPTION,
-				COLUMN_CATEGORY, COLUMN_SQ, COLUMN_HQ};
+				COLUMN_CATEGORY, COLUMN_URL, COLUMN_SQ, COLUMN_HQ};
 	}
 
 	public Item generateObjectFromCursor(Cursor cursor) {
@@ -124,6 +125,7 @@ public class ItemDataSource extends DataSource {
 				.getColumnIndex(COLUMN_DESCRIPTION)));
 		item.setCategory(cursor.getString(cursor
 				.getColumnIndex(COLUMN_CATEGORY)));
+		item.setUrl(cursor.getString(cursor.getColumnIndex(COLUMN_URL)));
 		Thumbnail thumbnail = new Thumbnail();
 		thumbnail.setSqDefault(cursor.getString(cursor
 				.getColumnIndex(COLUMN_SQ)));
@@ -146,6 +148,7 @@ public class ItemDataSource extends DataSource {
 		values.put(COLUMN_TITLE, item.getTitle());
 		values.put(COLUMN_DESCRIPTION, item.getDescription());
 		values.put(COLUMN_CATEGORY, item.getCategory());
+		values.put(COLUMN_URL, item.getUrl());
 		values.put(COLUMN_SQ, item.getThumbnail().getSqDefault());
 		values.put(COLUMN_HQ, item.getThumbnail().getHqDefault());
 		return values;

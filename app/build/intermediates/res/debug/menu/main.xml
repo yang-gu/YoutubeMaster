@@ -4,9 +4,15 @@
     tools:context="com.example.youtubemaster.MainActivity" >
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/twitter_selection"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/twitter"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/facebook_selection"
+        android:orderInCategory="100"
+        android:title="@string/facebook"
         app:showAsAction="never"/>
 
 </menu>

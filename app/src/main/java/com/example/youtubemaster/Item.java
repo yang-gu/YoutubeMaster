@@ -1,6 +1,8 @@
 package com.example.youtubemaster;
 
-public class Item {	
+import java.io.Serializable;
+
+public class Item implements Serializable {
 	
 	private String id;
 	private String title;

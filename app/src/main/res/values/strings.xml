@@ -4,5 +4,8 @@
     <string name="app_name">Youtube Master</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="twitter">twitter</string>
+    <string name="facebook">FaceBook</string>
+    <string name="facebook_app_id">yangsfacebookdemo</string>
 
 </resources>

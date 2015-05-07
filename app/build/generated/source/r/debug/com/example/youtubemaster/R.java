@@ -1485,7 +1485,6 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0b003c;
         public static final int action_mode_bar_stub=0x7f0b003b;
         public static final int action_mode_close_button=0x7f0b002e;
-        public static final int action_settings=0x7f0b005b;
         public static final int activity_chooser_view_content=0x7f0b002f;
         public static final int always=0x7f0b0016;
         public static final int beginning=0x7f0b0013;
@@ -1513,6 +1512,7 @@ containing a value of this type.
         public static final int end=0x7f0b0014;
         public static final int expand_activities_button=0x7f0b0030;
         public static final int expanded_menu=0x7f0b0036;
+        public static final int facebook_selection=0x7f0b005c;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000d;
         public static final int icon=0x7f0b0034;
@@ -1558,6 +1558,7 @@ containing a value of this type.
         public static final int thumb=0x7f0b0055;
         public static final int title=0x7f0b0035;
         public static final int top=0x7f0b0026;
+        public static final int twitter_selection=0x7f0b005b;
         public static final int unknown=0x7f0b0020;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b0012;
@@ -1644,8 +1645,11 @@ containing a value of this type.
         public static final int com_facebook_send_button_text=0x7f050020;
         public static final int com_facebook_share_button_text=0x7f050021;
         public static final int com_facebook_tooltip_default=0x7f050022;
-        public static final int hello_world=0x7f050023;
+        public static final int facebook=0x7f050023;
+        public static final int facebook_app_id=0x7f050024;
+        public static final int hello_world=0x7f050025;
         public static final int messenger_send_button_text=0x7f05000f;
+        public static final int twitter=0x7f050026;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
